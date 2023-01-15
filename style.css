@@ -67,7 +67,7 @@ li {
         width: 100%;
     }
     .header-text{
-        width: 100%;
+        /* width: 100%; */
         text-align: center;
     }
 }
@@ -271,10 +271,21 @@ justify-content: center;
     padding: 10px;
     border: none;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 .footer-btn:hover{
     transform: translateX(50px);
 }
 
+.contact-us{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    text-align: center;
+}
+.phone,.emails{
+    color: #727272;
+}
 
 
